@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'UHOGyncFEX9bAZjZ0zq9YBGoVyS6cUndhJjoV2c5hZ7ukR4_ftkY_sKliAvciMyQPcZjR6z1ZA';
+$settings['hash_salt'] = 'ebV1ZrfmYzEo92EcEmXaVUQngIrqvOa1snst-MTTtmyOyYgNhHfTyKuoUGR92viiZcvwIPBMzw';
 
 /**
  * Deployment identifier.
@@ -715,7 +715,7 @@ $settings['container_yamls'][] = __DIR__ . '/services.yml';
 #   include __DIR__ . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'drupalDB',
+  'database' => 'dualesstudiumDB',
   'username' => 'root',
   'password' => '',
   'prefix' => '',
@@ -725,4 +725,4 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['install_profile'] = 'standard';
-$config_directories['sync'] = 'sites/default/files/config_wGIvZctIQGacVAAoMmLlbpLMRElW9iakk2IhisljD7K00joOruvdRps6Ku7rswOGzzL-sSZ7iQ/sync';
+$config_directories['sync'] = 'sites/default/files/config_vf8EAJMvLWyGCPDUR2hvHxVnoHGYkQmxr-tRva0202GIGDKqJXgx9S4Bhrqb6AdT9CgDgHFaqA/sync';
